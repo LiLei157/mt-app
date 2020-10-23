@@ -10,7 +10,7 @@ const UserSchema = new Schema({
         type:String,    
         unique:true,    // username用户名唯一
         required:true
-    },
+    }, 
     password:{
         type:String,
         required:true

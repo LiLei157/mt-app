@@ -43,6 +43,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    // '@nuxtjs/axios'
   ],
   /*
   ** Build configuration
@@ -62,6 +63,6 @@ module.exports = {
       //   })
       // }
     },
-    // cache:false
+    cache:false
   }
 }

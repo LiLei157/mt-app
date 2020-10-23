@@ -28,7 +28,7 @@ export default{
         },
         get expire(){   // 生成邮箱验证码失效时间
             return ()=>{
-                return new Date().getTime()+60*60
+                return new Date().getTime()+60*60*1000
             }
         }
     }
